@@ -7,8 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
-import { QestionSetComponent } from './qestion-set/qestion-set.component';
+import { QuestionSetComponent } from './question-set/question-set.component';
 import { QuestionSetNavComponent } from './question-set-nav/question-set-nav.component';
+import { ScoreComponent } from './score/score.component';
+import { QuestionComponent } from './question/question.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +19,10 @@ import { QuestionSetNavComponent } from './question-set-nav/question-set-nav.com
     NavComponent,
     ContactComponent,
     AboutComponent,
-    QestionSetComponent,
+    QuestionSetComponent,
     QuestionSetNavComponent,
+    ScoreComponent,
+    QuestionComponent,
   ],
   imports: [
     BrowserModule,
