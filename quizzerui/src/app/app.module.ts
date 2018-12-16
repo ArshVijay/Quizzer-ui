@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { QestionSetComponent } from './qestion-set/qestion-set.component';
+import { QuestionSetNavComponent } from './question-set-nav/question-set-nav.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { QestionSetComponent } from './qestion-set/qestion-set.component';
     ContactComponent,
     AboutComponent,
     QestionSetComponent,
+    QuestionSetNavComponent,
   ],
   imports: [
     BrowserModule,
